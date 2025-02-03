@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Guessing Game </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tunchi-Tryb3 </h1>
+    
+    
+    <!-- Game Instructions -->
+    <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: blue;" data-testid="gameInstructions">Guess the correct color <span style="color: green;">and win a prize 🏆!</span> </h3>
+
+    <!-- Color Box (Target Color) -->
+    <div class="color-box" data-testid="colorBox"></div>
+
+    <!-- Color Buttons -->
+    <div class="color-options">
+      <button class="color-button" data-testid="colorOption"></button>
+      <button class="color-button" data-testid="colorOption"></button>
+      <button class="color-button" data-testid="colorOption"></button>
+      <button class="color-button" data-testid="colorOption"></button>
+      <button class="color-button" data-testid="colorOption"></button>
+      <button class="color-button" data-testid="colorOption"></button>
+    </div>
+
+    <!-- Game Status -->
+    <p data-testid="gameStatus"></p>
+
+    <!-- Score Counter -->
+    <p>Score: <span data-testid="score">0</span></p>
+
+    <!-- New Game Button -->
+    <button data-testid="newGameButton">New Game</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
