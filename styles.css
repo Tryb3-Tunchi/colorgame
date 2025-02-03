@@ -8,6 +8,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
     display: flex;
     justify-content: center;
+    margin: 50px 10px;
     align-items: center;
     min-height: 100vh;
     background: #f3f3f3;
